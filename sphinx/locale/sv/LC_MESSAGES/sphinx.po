@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-04 06:45+0000\n"
+"POT-Creation-Date: 2025-12-07 22:40+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (http://app.transifex.com/sphinx-doc/sphinx-1/language/sv/)\n"
@@ -211,7 +211,7 @@ msgstr "Det här projektet kräver minst Sphinx v%s och kan därför inte byggas
 msgid "making output directory"
 msgstr "skapa utdatakatalog"
 
-#: application.py:310 registry.py:540
+#: application.py:310 registry.py:538
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "medan inställning av tillägget %s:"
@@ -228,7 +228,7 @@ msgstr "'setup' som den för närvarande definieras i conf.py är inte en Python
 msgid "loading translations [%s]... "
 msgstr "läser in översättningar [%s]... "
 
-#: application.py:384 util/display.py:89
+#: application.py:384 util/display.py:85
 msgid "done"
 msgstr "klar"
 
@@ -332,204 +332,204 @@ msgstr "%s\\-tillägget är inte säkert för parallellskrivning"
 msgid "doing serial %s"
 msgstr "gör serie %s"
 
-#: registry.py:162
+#: registry.py:160
 #, python-format
 msgid "Builder class %s has no \"name\" attribute"
 msgstr "Byggarklassen %s har inget \"name\"-attribut"
 
-#: registry.py:166
+#: registry.py:164
 #, python-format
 msgid "Builder %r already exists (in module %s)"
 msgstr "Byggare %r finns redan (i modul %s)"
 
-#: registry.py:182
+#: registry.py:180
 #, python-format
 msgid "Builder name %s not registered or available through entry point"
 msgstr "Byggarens namn %s inte registrerat eller tillgängligt via ingångspunkten"
 
-#: registry.py:192
+#: registry.py:190
 #, python-format
 msgid "Builder name %s not registered"
 msgstr "Byggarens namn %s inte registrerat"
 
-#: registry.py:199
+#: registry.py:197
 #, python-format
 msgid "domain %s already registered"
 msgstr "domän %s redan registrerad"
 
-#: registry.py:223 registry.py:244 registry.py:257
+#: registry.py:221 registry.py:242 registry.py:255
 #, python-format
 msgid "domain %s not yet registered"
 msgstr "domän %s ännu inte registrerad"
 
-#: registry.py:230
+#: registry.py:228
 #, python-format
 msgid "The %r directive is already registered to domain %s"
 msgstr "Direktivet %r är redan registrerat på domänen %s"
 
-#: registry.py:248
+#: registry.py:246
 #, python-format
 msgid "The %r role is already registered to domain %s"
 msgstr "Rollen %r är redan registrerad på domänen %s"
 
-#: registry.py:261
+#: registry.py:259
 #, python-format
 msgid "The %r index is already registered to domain %s"
 msgstr "Indexet %r är redan registrerat på domänen %s"
 
-#: registry.py:308
+#: registry.py:306
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "Objekttypen %r är redan registrerad"
 
-#: registry.py:339
+#: registry.py:337
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "Crossref_type %r är redan registrerad"
 
-#: registry.py:348
+#: registry.py:346
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r är redan registrerat"
 
-#: registry.py:358
+#: registry.py:356
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "source_parser för %r är redan registrerad"
 
-#: registry.py:367
+#: registry.py:365
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "Source parser för %s inte registrerad"
 
-#: registry.py:388
+#: registry.py:386
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "Översättare för %r finns redan"
 
-#: registry.py:405
+#: registry.py:403
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "kwargs för add_node() måste vara en (visit, depart) funktionstupel: %r=%r"
 
-#: registry.py:498
+#: registry.py:496
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r redan registrerad"
 
-#: registry.py:514
+#: registry.py:512
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr "math renderer %s är redan registrerad"
 
-#: registry.py:531
+#: registry.py:529
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "tillägget %r var redan sammanslaget med Sphinx sedan version %s; detta tillägg ignoreras."
 
-#: registry.py:545
+#: registry.py:543
 msgid "Original exception:\n"
 msgstr "Ursprungligt undantag:\n"
 
-#: registry.py:547
+#: registry.py:545
 #, python-format
 msgid "Could not import extension %s"
 msgstr "Det gick inte att importera tillägget %s"
 
-#: registry.py:554
+#: registry.py:552
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "tillägget %r har ingen setup()-funktion; är det verkligen en Sphinx-modul?"
 
-#: registry.py:567
+#: registry.py:565
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "Tillägget %s som används av detta projekt kräver minst Sphinx v%s; det kan därför inte byggas med denna version."
 
-#: registry.py:579
+#: registry.py:577
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "
 "should return None or a metadata dictionary"
 msgstr "tillägget %r returnerade ett objekt som inte stöds från sin setup()-funktion; den bör returnera None eller en metadatadictionary"
 
-#: registry.py:605
+#: registry.py:603
 #, python-format
 msgid "`None` is not a valid filetype for %r."
 msgstr "`None` är inte en giltig filtyp för %r."
 
-#: config.py:351
+#: config.py:350
 #, python-format
 msgid "config directory doesn't contain a conf.py file (%s)"
 msgstr "config-katalogen innehåller inte någon conf.py-fil (%s)"
 
-#: config.py:374
+#: config.py:373
 #, python-format
 msgid "'%s' must be '0' or '1', got '%s'"
 msgstr "'%s' måste vara '0' eller '1', fick '%s'"
 
-#: config.py:379
+#: config.py:378
 #, python-format
 msgid ""
 "cannot override dictionary config setting %r, ignoring (use %r to set "
 "individual elements)"
 msgstr "kan inte åsidosätta konfigurationsinställningen för ordboken %r, ignorerar (använd %r för att ställa in enskilda element)"
 
-#: config.py:391
+#: config.py:390
 #, python-format
 msgid "invalid number %r for config value %r, ignoring"
 msgstr "ogiltigt nummer %r för konfigurationsvärde %r, ignoreras"
 
-#: config.py:399
+#: config.py:398
 #, python-format
 msgid "cannot override config setting %r with unsupported type, ignoring"
 msgstr "kan inte åsidosätta konfigurationsinställningen %r med en typ som inte stöds, ignorerar"
 
-#: config.py:422
+#: config.py:421
 #, python-format
 msgid "unknown config value %r in override, ignoring"
 msgstr "okänt konfigurationsvärde %r i åsidosättande, ignoreras"
 
-#: config.py:476
+#: config.py:475
 #, python-format
 msgid "No such config value: %r"
 msgstr "Inget sådant konfigurationsvärde: %r"
 
-#: config.py:504
+#: config.py:503
 #, python-format
 msgid "Config value %r already present"
 msgstr "Konfigureringsvärde %r finns redan"
 
-#: config.py:541
+#: config.py:540
 #, python-format
 msgid ""
 "cannot cache unpickleable configuration value: %r (because it contains a "
 "function, class, or module object)"
 msgstr "kan inte cachelagra ett konfigurationsvärde som inte kan plockas ut: %r (eftersom det innehåller ett funktions-, klass- eller modulobjekt)"
 
-#: config.py:577
+#: config.py:576
 msgid ""
 "Invalid configuration value found: 'language = None'. Update your "
 "configuration to a valid language code. Falling back to 'en' (English)."
 msgstr "Ogiltigt konfigurationsvärde hittades: 'language = None'. Uppdatera din konfiguration till en giltig språkkod. Återgår till 'en' (engelska)."
 
-#: config.py:599
+#: config.py:598
 #, python-format
 msgid "There is a syntax error in your configuration file: %s\n"
 msgstr "Det finns ett syntaxfel i din konfigurationsfil: %s\n"
 
-#: config.py:603
+#: config.py:602
 msgid ""
 "The configuration file (or one of the modules it imports) called sys.exit()"
 msgstr "Konfigurationsfilen (eller en av de moduler som den importerar) kallade sys.exit()"
 
-#: config.py:611
+#: config.py:610
 #, python-format
 msgid ""
 "There is a programmable error in your configuration file:\n"
@@ -537,76 +537,76 @@ msgid ""
 "%s"
 msgstr "Det finns ett programmerbart fel i din konfigurationsfil:\n\n%s"
 
-#: config.py:633
+#: config.py:632
 #, python-format
 msgid "Failed to convert %r to a frozenset"
 msgstr "Misslyckades med att konvertera %r till en frozenset"
 
-#: config.py:651 config.py:659
+#: config.py:650 config.py:658
 #, python-format
 msgid "Converting `source_suffix = %r` to `source_suffix = %r`."
 msgstr "Konvertering av `source_suffix = %r` till `source_suffix = %r`."
 
-#: config.py:665
+#: config.py:664
 #, python-format
 msgid ""
 "The config value `source_suffix' expects a dictionary, a string, or a list "
 "of strings. Got `%r' instead (type %s)."
 msgstr "Konfigurationsvärdet `source_suffix' förväntar sig en ordbok, en sträng eller en lista med strängar. Fick `%r' istället (typ %s)."
 
-#: config.py:686
+#: config.py:685
 #, python-format
 msgid "Section %s"
 msgstr "Sektion %s"
 
-#: config.py:687
+#: config.py:686
 #, python-format
 msgid "Fig. %s"
 msgstr "Fig. %s"
 
-#: config.py:688
+#: config.py:687
 #, python-format
 msgid "Table %s"
 msgstr "Tabell %s"
 
-#: config.py:689
+#: config.py:688
 #, python-format
 msgid "Listing %s"
 msgstr "Listning %s"
 
-#: config.py:798
+#: config.py:797
 #, python-brace-format
 msgid ""
 "The config value `{name}` has to be a one of {candidates}, but `{current}` "
 "is given."
 msgstr "Konfigurationsvärdet `{name}` måste vara ett av {candidates}, men `{current}` är givet."
 
-#: config.py:829
+#: config.py:828
 #, python-brace-format
 msgid ""
 "The config value `{name}' has type `{current.__name__}'; expected "
 "{permitted}."
 msgstr "Konfigurationsvärdet `{name}' har typen `{current.__name__}'; förväntat {permitted}."
 
-#: config.py:846
+#: config.py:845
 #, python-brace-format
 msgid ""
 "The config value `{name}' has type `{current.__name__}', defaults to "
 "`{default.__name__}'."
 msgstr "Konfigurationsvärdet `{name}' har typen `{current.__name__}', standard är `{default.__name__}'."
 
-#: config.py:858
+#: config.py:857
 #, python-format
 msgid "primary_domain %r not found, ignored."
 msgstr "primary_domain %r hittades inte, ignoreras."
 
-#: config.py:878
+#: config.py:877
 msgid ""
 "Sphinx now uses \"index\" as the master document by default. To keep pre-2.0"
 " behaviour, set \"master_doc = 'contents'\"."
 msgstr "Sphinx använder nu \"index\" som huvuddokument som standard. För att behålla beteendet före 2.0, ställ in \"master_doc = 'contents'\"."
 
-#: config.py:892
+#: config.py:891
 msgid ""
 "Support for source encodings other than UTF-8 is deprecated and will be "
 "removed in Sphinx 10. Please comment at https://github.com/sphinx-"
@@ -2409,96 +2409,96 @@ msgstr "dimensionsenheten %s är ogiltig. Ignoreras."
 msgid "unknown index entry type %s found"
 msgstr "okänd indexposttyp %s hittades"
 
-#: _cli/__init__.py:73
+#: _cli/__init__.py:71
 msgid "Usage:"
 msgstr "Användning:"
 
-#: _cli/__init__.py:75
+#: _cli/__init__.py:73
 #, python-brace-format
 msgid "{0} [OPTIONS] <COMMAND> [<ARGS>]"
 msgstr "{0} [ALTERNATIV] <COMMAND> [<ARGS>]"
 
-#: _cli/__init__.py:78
+#: _cli/__init__.py:76
 msgid "  The Sphinx documentation generator."
 msgstr "  Sphinx dokumentationsgenerator."
 
-#: _cli/__init__.py:87
+#: _cli/__init__.py:85
 msgid "Commands:"
 msgstr "Kommandon:"
 
-#: _cli/__init__.py:98
+#: _cli/__init__.py:96
 msgid "Options"
 msgstr "Alternativ"
 
-#: _cli/__init__.py:113 _cli/__init__.py:181
+#: _cli/__init__.py:111 _cli/__init__.py:179
 msgid "For more information, visit https://www.sphinx-doc.org/en/master/man/."
 msgstr "För mer information, besök https://www.sphinx-doc.org/en/master/man/."
 
-#: _cli/__init__.py:171
+#: _cli/__init__.py:169
 #, python-brace-format
 msgid ""
 "{0}: error: {1}\n"
 "Run '{0} --help' for information"
 msgstr "{0}: fel: {1}\nKör '{0} --help' för information"
 
-#: _cli/__init__.py:179
+#: _cli/__init__.py:177
 msgid "   Manage documentation with Sphinx."
 msgstr "   Hantera dokumentation med Sphinx."
 
-#: _cli/__init__.py:191
+#: _cli/__init__.py:189
 msgid "Show the version and exit."
 msgstr "Visa versionen och avsluta."
 
-#: _cli/__init__.py:199
+#: _cli/__init__.py:197
 msgid "Show this message and exit."
 msgstr "Visa detta meddelande och avsluta."
 
-#: _cli/__init__.py:203
+#: _cli/__init__.py:201
 msgid "Logging"
 msgstr "Loggning"
 
-#: _cli/__init__.py:210
+#: _cli/__init__.py:208
 msgid "Increase verbosity (can be repeated)"
 msgstr "Öka ordrikedomen (kan upprepas)"
 
-#: _cli/__init__.py:218
+#: _cli/__init__.py:216
 msgid "Only print errors and warnings."
 msgstr "Skriv bara ut fel och varningar."
 
-#: _cli/__init__.py:225
+#: _cli/__init__.py:223
 msgid "No output at all"
 msgstr "Ingen utmatning alls"
 
-#: _cli/__init__.py:231
+#: _cli/__init__.py:229
 msgid "<command>"
 msgstr "<command>"
 
-#: _cli/__init__.py:263
+#: _cli/__init__.py:261
 msgid "See 'sphinx --help'.\n"
 msgstr "Se \"sphinx --help\".\n"
 
-#: transforms/i18n.py:230 transforms/i18n.py:305
+#: transforms/i18n.py:247 transforms/i18n.py:322
 #, python-brace-format
 msgid ""
 "inconsistent footnote references in translated message. original: {0}, "
 "translated: {1}"
 msgstr "inkonsekventa fotnotreferenser i översatt meddelande. original: {0}, översatt: {1}"
 
-#: transforms/i18n.py:275
+#: transforms/i18n.py:292
 #, python-brace-format
 msgid ""
 "inconsistent references in translated message. original: {0}, translated: "
 "{1}"
 msgstr "inkonsekventa referenser i översatt meddelande. original: {0}, översatt: {1}"
 
-#: transforms/i18n.py:325
+#: transforms/i18n.py:342
 #, python-brace-format
 msgid ""
 "inconsistent citation references in translated message. original: {0}, "
 "translated: {1}"
 msgstr "inkonsekventa källhänvisningar i översatt meddelande. original: {0}, översatt: {1}"
 
-#: transforms/i18n.py:347
+#: transforms/i18n.py:364
 #, python-brace-format
 msgid ""
 "inconsistent term references in translated message. original: {0}, "
@@ -2576,11 +2576,11 @@ msgid ""
 "data)."
 msgstr "Avbrutet kopieringsförsök från %s till %s (målbanan har befintliga data)."
 
-#: util/display.py:82
+#: util/display.py:78
 msgid "skipped"
 msgstr "hoppades över"
 
-#: util/display.py:87
+#: util/display.py:83
 msgid "failed"
 msgstr "misslyckades"
 
@@ -2611,7 +2611,7 @@ msgstr "Försök till kopiering från renderad mall %s till %s avbröts (destina
 msgid "Writing evaluated template result to %s"
 msgstr "Skriva utvärderat mallresultat till %s"
 
-#: util/docfields.py:103
+#: util/docfields.py:100
 #, python-format
 msgid ""
 "Problem in %s domain: field is supposed to use role '%s', but that role is "
@@ -2623,19 +2623,19 @@ msgstr "Problem i %s-domänen: fältet ska använda rollen '%s', men den rollen 
 msgid "default role %s not found"
 msgstr "standardroll %s hittades inte"
 
-#: util/nodes.py:462
+#: util/nodes.py:459
 #, python-format
 msgid ""
 "%r is no longer supported for index entries (from entry %r). Use 'pair: %s' "
 "instead."
 msgstr ""
 
-#: util/nodes.py:523
+#: util/nodes.py:520
 #, python-format
 msgid "toctree contains ref to nonexisting file %r"
 msgstr "toctree innehåller ref till icke-existerande fil %r"
 
-#: util/nodes.py:739
+#: util/nodes.py:736
 #, python-format
 msgid "exception while evaluating only directive expression: %s"
 msgstr "undantag vid utvärdering av endast direktivuttryck: %s"
@@ -4247,7 +4247,7 @@ msgstr "Okänd konfigurationsnyckel: latex_elements[%r], ignorerad."
 msgid "Unknown theme option: latex_theme_options[%r], ignored."
 msgstr "Okänt temaalternativ: latex_theme_options[%r], ignoreras."
 
-#: environment/collectors/toctree.py:259
+#: environment/collectors/toctree.py:257
 #, python-format
 msgid "%s is already assigned section numbers (nested numbered toctree?)"
 msgstr "%s är redan tilldelad sektionsnummer (nästlad numrerad toctree?)"

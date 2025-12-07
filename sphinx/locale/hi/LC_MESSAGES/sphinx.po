@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-01 16:14+0000\n"
+"POT-Creation-Date: 2025-12-07 22:40+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Sumanjali Damarla <damarlasumanjali@gmail.com>, 2020\n"
 "Language-Team: Hindi (http://app.transifex.com/sphinx-doc/sphinx-1/language/hi/)\n"
@@ -214,7 +214,7 @@ msgstr "इस परियोजना में स्फिंक्स क�
 msgid "making output directory"
 msgstr "परिणाम निर्देशिका बनाई जा रही है"
 
-#: application.py:310 registry.py:540
+#: application.py:310 registry.py:538
 #, python-format
 msgid "while setting up extension %s:"
 msgstr "%s आयाम को स्थापित करते हुए:"
@@ -231,7 +231,7 @@ msgstr "'स्थापना' को जैसा कि अभी कोन�
 msgid "loading translations [%s]... "
 msgstr "[%s] अनुवाद पढ़ा जा रहा है..."
 
-#: application.py:384 util/display.py:89
+#: application.py:384 util/display.py:85
 msgid "done"
 msgstr "संपन्न"
 
@@ -335,204 +335,204 @@ msgstr "समानांतर लेखन के लिए  %s विस्�
 msgid "doing serial %s"
 msgstr "%s पर काम कर रहे हैं"
 
-#: registry.py:162
+#: registry.py:160
 #, python-format
 msgid "Builder class %s has no \"name\" attribute"
 msgstr "निर्माण वर्ग %s का कोई \"नाम\" भाव नहीं है"
 
-#: registry.py:166
+#: registry.py:164
 #, python-format
 msgid "Builder %r already exists (in module %s)"
 msgstr "निर्माता %r पहले से (%s प्रभाग में) उपलब्ध है"
 
-#: registry.py:182
+#: registry.py:180
 #, python-format
 msgid "Builder name %s not registered or available through entry point"
 msgstr "निर्माता नाम %s पंजीकृत नहीं है अथवा प्रवेश स्थान पर उपलब्ध नहीं है."
 
-#: registry.py:192
+#: registry.py:190
 #, python-format
 msgid "Builder name %s not registered"
 msgstr "निर्माता नाम %s पंजीकृत नहीं है"
 
-#: registry.py:199
+#: registry.py:197
 #, python-format
 msgid "domain %s already registered"
 msgstr "अधिकारक्षेत्र %s पहले से पंजीकृत है"
 
-#: registry.py:223 registry.py:244 registry.py:257
+#: registry.py:221 registry.py:242 registry.py:255
 #, python-format
 msgid "domain %s not yet registered"
 msgstr "अधिकारक्षेत्र %s अभी पंजीकृत नहीं है"
 
-#: registry.py:230
+#: registry.py:228
 #, python-format
 msgid "The %r directive is already registered to domain %s"
 msgstr "%r निर्देश पहले से अधिकार-क्षेत्र %s में पंजीकृत है, "
 
-#: registry.py:248
+#: registry.py:246
 #, python-format
 msgid "The %r role is already registered to domain %s"
 msgstr "%r भूमिका पहले से अधिकार-क्षेत्र %s में पंजीकृत है, "
 
-#: registry.py:261
+#: registry.py:259
 #, python-format
 msgid "The %r index is already registered to domain %s"
 msgstr "%r अनुक्रमणिका  पहले से अधिकार-क्षेत्र %s में पंजीकृत है"
 
-#: registry.py:308
+#: registry.py:306
 #, python-format
 msgid "The %r object_type is already registered"
 msgstr "%r object_type पहले से पंजीकृत है"
 
-#: registry.py:339
+#: registry.py:337
 #, python-format
 msgid "The %r crossref_type is already registered"
 msgstr "%r crossref_type पहले से पंजीकृत है"
 
-#: registry.py:348
+#: registry.py:346
 #, python-format
 msgid "source_suffix %r is already registered"
 msgstr "source_suffix %r पहले से पंजीकृत है"
 
-#: registry.py:358
+#: registry.py:356
 #, python-format
 msgid "source_parser for %r is already registered"
 msgstr "%r का source_parser पहले से पंजीकृत है"
 
-#: registry.py:367
+#: registry.py:365
 #, python-format
 msgid "Source parser for %s not registered"
 msgstr "%s का स्रोत व्याख्याता पंजीकृत नहीं है"
 
-#: registry.py:388
+#: registry.py:386
 #, python-format
 msgid "Translator for %r already exists"
 msgstr "%r के लिए अनुवादक पहले से विद्यमान है"
 
-#: registry.py:405
+#: registry.py:403
 #, python-format
 msgid "kwargs for add_node() must be a (visit, depart) function tuple: %r=%r"
 msgstr "add_node() के kwargs एक (visit, depart) फंक्शन टपल #function tuple# होने चाहिए: %r=%r"
 
-#: registry.py:498
+#: registry.py:496
 #, python-format
 msgid "enumerable_node %r already registered"
 msgstr "enumerable_node %r पहले से पंजीकृत है"
 
-#: registry.py:514
+#: registry.py:512
 #, python-format
 msgid "math renderer %s is already registered"
 msgstr ""
 
-#: registry.py:531
+#: registry.py:529
 #, python-format
 msgid ""
 "the extension %r was already merged with Sphinx since version %s; this "
 "extension is ignored."
 msgstr "%r आयाम को %sसंस्करण से स्फिंक्स में सम्मिलित किया जा चुका है; आयाम की उपेक्षा की गयी."
 
-#: registry.py:545
+#: registry.py:543
 msgid "Original exception:\n"
 msgstr "मौलिक अपवाद:\n"
 
-#: registry.py:547
+#: registry.py:545
 #, python-format
 msgid "Could not import extension %s"
 msgstr "%s आयाम का आयात नहीं किया जा सका"
 
-#: registry.py:554
+#: registry.py:552
 #, python-format
 msgid ""
 "extension %r has no setup() function; is it really a Sphinx extension "
 "module?"
 msgstr "आयाम %r में कोई सेटअप #setup()# कारक नहीं है; क्या यह वास्तव में स्फिंक्स का परिवर्धक प्रभाग है?"
 
-#: registry.py:567
+#: registry.py:565
 #, python-format
 msgid ""
 "The %s extension used by this project needs at least Sphinx v%s; it "
 "therefore cannot be built with this version."
 msgstr "इस परियोजना में प्रयुक्त %s परिवर्धक को स्फिंक्स का कम से कम %s संस्करण चाहिए; इसलिए इस संस्करण से बनाना संभव नहीं है."
 
-#: registry.py:579
+#: registry.py:577
 #, python-format
 msgid ""
 "extension %r returned an unsupported object from its setup() function; it "
 "should return None or a metadata dictionary"
 msgstr "परिवर्धक %r के सेटअप() कर्म से एक असहाय वस्तु वापस मिली है; इसको 'कुछ नहीं' अथवा मेटाडाटा कोश भेजना चाहिए था"
 
-#: registry.py:605
+#: registry.py:603
 #, python-format
 msgid "`None` is not a valid filetype for %r."
 msgstr ""
 
-#: config.py:351
+#: config.py:350
 #, python-format
 msgid "config directory doesn't contain a conf.py file (%s)"
 msgstr "विन्यास निर्देशिका में कोन्फ़.पाय #conf.py# फाइल (%s) नहीं है "
 
-#: config.py:374
+#: config.py:373
 #, python-format
 msgid "'%s' must be '0' or '1', got '%s'"
 msgstr ""
 
-#: config.py:379
+#: config.py:378
 #, python-format
 msgid ""
 "cannot override dictionary config setting %r, ignoring (use %r to set "
 "individual elements)"
 msgstr "शब्दकोष विन्यास मान %r की उल्लंघन नहीं किया जा सकता, अनदेखा किया गया (प्रत्येक अवयव का मान रखने के लिए %r का उपयोग करें)"
 
-#: config.py:391
+#: config.py:390
 #, python-format
 msgid "invalid number %r for config value %r, ignoring"
 msgstr "विन्यास मान %r के लिए अमान्य संख्या %r, अनदेखा किया गया"
 
-#: config.py:399
+#: config.py:398
 #, python-format
 msgid "cannot override config setting %r with unsupported type, ignoring"
 msgstr "असमर्थित प्रकार के साथ विन्यास मान %r का उल्लंघन नहीं किया जा सकता, अनदेखा किया गया"
 
-#: config.py:422
+#: config.py:421
 #, python-format
 msgid "unknown config value %r in override, ignoring"
 msgstr "आरोहण में अज्ञात विन्यास मान %r, अनदेखा किया गया"
 
-#: config.py:476
+#: config.py:475
 #, python-format
 msgid "No such config value: %r"
 msgstr ""
 
-#: config.py:504
+#: config.py:503
 #, python-format
 msgid "Config value %r already present"
 msgstr "विन्यास मान %r पहले से विद्यमान है"
 
-#: config.py:541
+#: config.py:540
 #, python-format
 msgid ""
 "cannot cache unpickleable configuration value: %r (because it contains a "
 "function, class, or module object)"
 msgstr ""
 
-#: config.py:577
+#: config.py:576
 msgid ""
 "Invalid configuration value found: 'language = None'. Update your "
 "configuration to a valid language code. Falling back to 'en' (English)."
 msgstr ""
 
-#: config.py:599
+#: config.py:598
 #, python-format
 msgid "There is a syntax error in your configuration file: %s\n"
 msgstr "आपकी विन्यास फाइल में रचनाक्रम की त्रुटि है: %s\n"
 
-#: config.py:603
+#: config.py:602
 msgid ""
 "The configuration file (or one of the modules it imports) called sys.exit()"
 msgstr "विन्यास फाइल (अथवा इसके द्वारा आयातित प्रभागों) द्वारा sys.exit() का आह्वान किया गया"
 
-#: config.py:611
+#: config.py:610
 #, python-format
 msgid ""
 "There is a programmable error in your configuration file:\n"
@@ -540,76 +540,76 @@ msgid ""
 "%s"
 msgstr "विन्यास फाइल में प्रोग्राम के योग्य त्रुटि है:\n\n%s"
 
-#: config.py:633
+#: config.py:632
 #, python-format
 msgid "Failed to convert %r to a frozenset"
 msgstr ""
 
-#: config.py:651 config.py:659
+#: config.py:650 config.py:658
 #, python-format
 msgid "Converting `source_suffix = %r` to `source_suffix = %r`."
 msgstr ""
 
-#: config.py:665
+#: config.py:664
 #, python-format
 msgid ""
 "The config value `source_suffix' expects a dictionary, a string, or a list "
 "of strings. Got `%r' instead (type %s)."
 msgstr ""
 
-#: config.py:686
+#: config.py:685
 #, python-format
 msgid "Section %s"
 msgstr "भाग %s"
 
-#: config.py:687
+#: config.py:686
 #, python-format
 msgid "Fig. %s"
 msgstr "चित्र %s"
 
-#: config.py:688
+#: config.py:687
 #, python-format
 msgid "Table %s"
 msgstr "सारणी %s"
 
-#: config.py:689
+#: config.py:688
 #, python-format
 msgid "Listing %s"
 msgstr "सूची %s"
 
-#: config.py:798
+#: config.py:797
 #, python-brace-format
 msgid ""
 "The config value `{name}` has to be a one of {candidates}, but `{current}` "
 "is given."
 msgstr "`{name}` विन्यास मान, {candidates} में से एक होना चाहिए, परन्तु `{current}` दिया गया है."
 
-#: config.py:829
+#: config.py:828
 #, python-brace-format
 msgid ""
 "The config value `{name}' has type `{current.__name__}'; expected "
 "{permitted}."
 msgstr "विन्यास मान `{name}' का प्रकार `{current.__name__}' है; अपेक्षित {permitted}."
 
-#: config.py:846
+#: config.py:845
 #, python-brace-format
 msgid ""
 "The config value `{name}' has type `{current.__name__}', defaults to "
 "`{default.__name__}'."
 msgstr "विन्यास मान `{name}' का प्रकार `{current.__name__}' है; मानक `{default.__name__}' का प्रयोग किया गया."
 
-#: config.py:858
+#: config.py:857
 #, python-format
 msgid "primary_domain %r not found, ignored."
 msgstr "primary_domain %r नहीं मिला, अनदेखा किया गया."
 
-#: config.py:878
+#: config.py:877
 msgid ""
 "Sphinx now uses \"index\" as the master document by default. To keep pre-2.0"
 " behaviour, set \"master_doc = 'contents'\"."
 msgstr ""
 
-#: config.py:892
+#: config.py:891
 msgid ""
 "Support for source encodings other than UTF-8 is deprecated and will be "
 "removed in Sphinx 10. Please comment at https://github.com/sphinx-"
@@ -2412,96 +2412,96 @@ msgstr "परिमाण मात्रक %s अमान्य है. उ�
 msgid "unknown index entry type %s found"
 msgstr "अनुक्रमणिका की प्रविष्टि का प्रकार %s मिला"
 
-#: _cli/__init__.py:73
+#: _cli/__init__.py:71
 msgid "Usage:"
 msgstr ""
 
-#: _cli/__init__.py:75
+#: _cli/__init__.py:73
 #, python-brace-format
 msgid "{0} [OPTIONS] <COMMAND> [<ARGS>]"
 msgstr ""
 
-#: _cli/__init__.py:78
+#: _cli/__init__.py:76
 msgid "  The Sphinx documentation generator."
 msgstr ""
 
-#: _cli/__init__.py:87
+#: _cli/__init__.py:85
 msgid "Commands:"
 msgstr ""
 
-#: _cli/__init__.py:98
+#: _cli/__init__.py:96
 msgid "Options"
 msgstr ""
 
-#: _cli/__init__.py:113 _cli/__init__.py:181
+#: _cli/__init__.py:111 _cli/__init__.py:179
 msgid "For more information, visit https://www.sphinx-doc.org/en/master/man/."
 msgstr ""
 
-#: _cli/__init__.py:171
+#: _cli/__init__.py:169
 #, python-brace-format
 msgid ""
 "{0}: error: {1}\n"
 "Run '{0} --help' for information"
 msgstr ""
 
-#: _cli/__init__.py:179
+#: _cli/__init__.py:177
 msgid "   Manage documentation with Sphinx."
 msgstr ""
 
-#: _cli/__init__.py:191
+#: _cli/__init__.py:189
 msgid "Show the version and exit."
 msgstr ""
 
-#: _cli/__init__.py:199
+#: _cli/__init__.py:197
 msgid "Show this message and exit."
 msgstr ""
 
-#: _cli/__init__.py:203
+#: _cli/__init__.py:201
 msgid "Logging"
 msgstr ""
 
-#: _cli/__init__.py:210
+#: _cli/__init__.py:208
 msgid "Increase verbosity (can be repeated)"
 msgstr ""
 
-#: _cli/__init__.py:218
+#: _cli/__init__.py:216
 msgid "Only print errors and warnings."
 msgstr ""
 
-#: _cli/__init__.py:225
+#: _cli/__init__.py:223
 msgid "No output at all"
 msgstr ""
 
-#: _cli/__init__.py:231
+#: _cli/__init__.py:229
 msgid "<command>"
 msgstr ""
 
-#: _cli/__init__.py:263
+#: _cli/__init__.py:261
 msgid "See 'sphinx --help'.\n"
 msgstr ""
 
-#: transforms/i18n.py:230 transforms/i18n.py:305
+#: transforms/i18n.py:247 transforms/i18n.py:322
 #, python-brace-format
 msgid ""
 "inconsistent footnote references in translated message. original: {0}, "
 "translated: {1}"
 msgstr "अनुवादित संदेश में असंगत पाद-टिप्पणी के प्रसंग. मूल: {0}, अनुवादित: {1}"
 
-#: transforms/i18n.py:275
+#: transforms/i18n.py:292
 #, python-brace-format
 msgid ""
 "inconsistent references in translated message. original: {0}, translated: "
 "{1}"
 msgstr "अनुवादित संदेश में असंगत प्रसंग. मूल: {0}, अनुवादित: {1}"
 
-#: transforms/i18n.py:325
+#: transforms/i18n.py:342
 #, python-brace-format
 msgid ""
 "inconsistent citation references in translated message. original: {0}, "
 "translated: {1}"
 msgstr "अनुवादित संदेश में असंगत उद्धरण के प्रसंग. मूल: {0}, अनुवादित: {1}"
 
-#: transforms/i18n.py:347
+#: transforms/i18n.py:364
 #, python-brace-format
 msgid ""
 "inconsistent term references in translated message. original: {0}, "
@@ -2579,11 +2579,11 @@ msgid ""
 "data)."
 msgstr ""
 
-#: util/display.py:82
+#: util/display.py:78
 msgid "skipped"
 msgstr "छोड़ा "
 
-#: util/display.py:87
+#: util/display.py:83
 msgid "failed"
 msgstr "असफल"
 
@@ -2614,7 +2614,7 @@ msgstr ""
 msgid "Writing evaluated template result to %s"
 msgstr ""
 
-#: util/docfields.py:103
+#: util/docfields.py:100
 #, python-format
 msgid ""
 "Problem in %s domain: field is supposed to use role '%s', but that role is "
@@ -2626,19 +2626,19 @@ msgstr ""
 msgid "default role %s not found"
 msgstr "मानक भूमिका '%s' नहीं मिली"
 
-#: util/nodes.py:462
+#: util/nodes.py:459
 #, python-format
 msgid ""
 "%r is no longer supported for index entries (from entry %r). Use 'pair: %s' "
 "instead."
 msgstr ""
 
-#: util/nodes.py:523
+#: util/nodes.py:520
 #, python-format
 msgid "toctree contains ref to nonexisting file %r"
 msgstr "विषय-सूची-संरचना में अविद्यमान फाइल %r का सन्दर्भ है"
 
-#: util/nodes.py:739
+#: util/nodes.py:736
 #, python-format
 msgid "exception while evaluating only directive expression: %s"
 msgstr "केवल निर्देशक भाव का मूल्यांकन करते समय अपवाद: %s"
@@ -4250,7 +4250,7 @@ msgstr ""
 msgid "Unknown theme option: latex_theme_options[%r], ignored."
 msgstr ""
 
-#: environment/collectors/toctree.py:259
+#: environment/collectors/toctree.py:257
 #, python-format
 msgid "%s is already assigned section numbers (nested numbered toctree?)"
 msgstr "%s में पहले से भाग संख्या नियत है (एक के अन्दर दूसरा अंकित विषय-सूची-संरचना)"
