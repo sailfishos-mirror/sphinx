@@ -349,4 +349,4 @@ jobs:
       env:
         VIRTUALENV_SYSTEM_SITE_PACKAGES: "1"
     - name: codecov
-      uses: codecov/codecov-action@v5
+      uses: codecov/codecov-action@v7
